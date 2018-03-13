@@ -11,7 +11,7 @@ int main() {
     bool iscolor = true; // variable used as flag to determine if color image is being displayed
     
     /* Read Image */
-    cv::Mat image1 = cv::imread("/Users/ricardocastillo/Documents/Programming 2018/imageprocessing/torontoskyline.jpg");
+    cv::Mat image1 = cv::imread("/Users/........../test image.jpg"); 
 
     if(image1.empty()){                                         // chack if image was properly read
         std::cout << "Unable to read image / Image not found" << std::endl;
