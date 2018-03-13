@@ -32,7 +32,7 @@ int main() {
     while (1) {
         if(charCheckForEscKey == 27){ break;}                   // exit while loop if 'esc' key is pressed
         
-        if((charCheckForEscKey == 'g') && (iscolor == true)){   // change to B&W image if 'b' is pressed on keyboard
+        if((charCheckForEscKey == 'g') && (iscolor == true)){   // change to B&W image if 'g' is pressed on keyboard
             cv::destroyWindow("Color Image");
             cv::imshow("Black and White Image", image2);
             iscolor = false;
